@@ -1,0 +1,90 @@
+#span1 {
+    margin: 15px;
+}
+
+#span2 {
+    margin: 15px;
+}
+
+#span3 {
+    margin: 15px;
+}
+
+
+h2+img {
+    float: left;
+    width: 250px;
+    margin-inline: 15px;
+}
+
+p+a {
+    float: right;
+    background-color: orange;
+    color: white;
+    border: 10px solid orange;
+    margin-inline: 15px;
+}
+
+ul+a {
+    float: right;
+    background-color: orange;
+    color: white;
+    border: 10px solid orange;
+    margin-inline: 15px;
+}
+
+nav {
+
+    float: right;
+    font-size: 24px;
+    margin-top: 30px;
+
+}
+
+a {
+    font-family: "Oswald";
+    color: orange;
+    text-decoration: none;
+}
+
+
+body {
+    width: 750px;
+    margin: auto;
+    color: grey;
+    border-bottom: 50px solid transparent;
+    border-right: 150px solid transparent;
+    border-left: 150px solid transparent;
+   border-image:url(img/fond.png) 30 stretch;
+
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(255, 153, 0);
+    font-weight: bold;
+    font-family: "Oswald";
+    margin-left: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin: 15px;
+    text-align: justify;
+}
+
+header {
+    background-color: rgb(255, 235, 193);
+    padding: 15px;
+
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
